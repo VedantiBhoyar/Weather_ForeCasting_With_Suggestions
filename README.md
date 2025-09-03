@@ -59,6 +59,12 @@ Example:
 <img width="1898" height="973" alt="Weather4" src="https://github.com/user-attachments/assets/beafbb3c-09cc-48c7-87ba-ed2af8a3c9eb" />
 
 
+
+https://github.com/user-attachments/assets/bdf1669a-2edf-4e46-88c3-c4356e0d0882
+
+
+
+
 🔑 API References
 
 OpenWeatherMap API – provides current weather, hourly & daily forecasts.
