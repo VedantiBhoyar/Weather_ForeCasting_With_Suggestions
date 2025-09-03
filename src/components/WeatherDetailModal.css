@@ -1,0 +1,71 @@
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 33, 85, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(130, 128, 17, 0.18);
+  padding: 2rem 2.5rem;
+  min-width: 340px;
+  max-width: 95vw;
+  position: relative;
+  animation: popIn 0.3s;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.close-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.close-btn:hover {
+  background: #e0e7ef;
+}
+
+.weather-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.weather-header h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #eb5625;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.weather-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem 2rem;
+}
+
+.weather-details-grid .label {
+  font-weight: 600;
+  color: #64748b;
+  margin-right: 0.5em;
+}
