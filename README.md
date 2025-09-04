@@ -20,7 +20,7 @@ A modern weather forecasting application built with React that fetches real-time
 
 Frontend: React,CSS
 
-APIs:
+Backend : NodeJs , Javascript
 
 OpenWeatherMap API
  – for real-time weather data
@@ -28,7 +28,6 @@ OpenWeatherMap API
 Google Generative AI API
  – for intelligent activity suggestions
 
-Others: Axios / Fetch for API calls
 
 📦 Installation
 
